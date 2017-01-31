@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Do you want an animal? yes/no");
         String answer1 = scan.nextLine();
         if (!answer1.equals("yes") && !answer1.equals("no")) {
-            System.out.println("That's not Yes or No! Let's try that again");
+            System.out.println("That's not yes or no! Let's try that again");
             answer1 = scan.nextLine();
         }
 
@@ -106,7 +106,6 @@ public class Main {
                 break;
         }
         System.out.println("Thanks, " + name + ". This fits you best because you like " + answer2 + " animals that are both " + answer3 + " and " + answer4 + ".");
-
 
 
     }
